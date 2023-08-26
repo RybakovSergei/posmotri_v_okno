@@ -135,6 +135,11 @@ fieldset{
   outline-offset: 2px; 
 }
 
+.search-form__label:active{
+  outline: 1px solid #FFF;
+  outline-offset:-1px; 
+}
+
 .content__details{
   width: 100%;
   height: 100%;
@@ -246,21 +251,17 @@ fieldset{
   outline-offset: 2px;
 }
 
+.content__video-card:hover{
+  cursor: pointer;
+}
+
 .content__video-card-thumbnail{
   width: 194px;
   height: 103px;
 }
 
-.content__video-card-thumbnail:hover{
-  cursor: pointer;
-}
-
 .content__video-card-description-container{
   width: 100%;
-}
-
-.content__video-card-description-container:hover{
-  cursor:auto;
 }
 
 .search-form__label{
@@ -303,12 +304,9 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   outline-offset: -30px;
 }
 
-
-
 .content__video-card {
   background-color: transparent;
 }
-
 
 .content__card-link_current .content__video-card {
   background-color: #545050;
