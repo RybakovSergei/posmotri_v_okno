@@ -212,7 +212,6 @@ fieldset{
 }
 
 .content__video-card-title{
-  padding-top: 6px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-size: 30px;
@@ -222,6 +221,7 @@ fieldset{
 }
 
 .content__video-card-description{
+  padding-top: 6px;
   color: #FFF;
   font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
@@ -253,6 +253,7 @@ fieldset{
 
 .content__video-card:hover{
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .content__video-card-thumbnail{
